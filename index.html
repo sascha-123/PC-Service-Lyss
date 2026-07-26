@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%233b82f6'%3E%3Cpath d='M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.2L19.5 8 12 11.8 4.5 8 12 4.2z'/%3E%3C/svg%3E"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PC-Service Lyss - Professioneller PC-Service in der Schweiz. PC-Zusammenbau, Windows Installation, Hardware-Upgrades und Beratung. Saubere Arbeit, faire Preise, persönliche Beratung."
+    />
+    <meta name="author" content="PC-Service Lyss
+    " />
+    <meta name="keywords" content="PC Service, PC Zusammenbau, Windows Installation, Hardware Upgrade, PC Beratung, Lyss, Schweiz, PC-Service Lyss" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="PC-Service Lyss - Professioneller PC-Service" />
+    <meta property="og:description" content="PC-Zusammenbau • Windows Installation • Hardware-Upgrades • Beratung in Lyss, Schweiz." />
+    <meta property="og:type" content="website" />
+
+    <title>PC-Service Lyss - Professioneller PC-Service in der Schweiz</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts: Inter + Space Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ============ NAVIGATION ============ -->
+    <header id="navbar" class="navbar">
+      <div class="container nav-container">
+        <a href="#hero" class="nav-logo" aria-label="PC-Service Lyss Startseite">
+          <span class="nav-logo-mark"><i class="fa-solid fa-microchip"></i></span>
+          <span class="nav-logo-text">PC-Service Lyss</span>
+        </a>
+
+        <!-- Hamburger button (mobile) -->
+        <button
+          id="navToggle"
+          class="nav-toggle"
+          aria-label="Menü öffnen"
+          aria-expanded="false"
+          aria-controls="navMenu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="navMenu" class="nav-menu" aria-label="Hauptnavigation">
+          <a href="#leistungen" class="nav-link">Leistungen</a>
+          <a href="#ablauf" class="nav-link">Ablauf</a>
+          <a href="#ueber-mich" class="nav-link">Über mich</a>
+          <a href="#galerie" class="nav-link">Galerie</a>
+          <a href="#bewertungen" class="nav-link">Bewertungen</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+          <a href="#kontakt" class="nav-link nav-cta">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ 1. HERO SECTION ============ -->
+      <section id="hero" class="hero">
+        <!-- Decorative background glow -->
+        <div class="hero-glow" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+          <!-- Left: text content -->
+          <div class="hero-content reveal">
+            <span class="hero-badge">
+              <i class="fa-solid fa-location-dot"></i>
+              Lyss, Schweiz
+            </span>
+            <h1 class="hero-title">
+              Professioneller<br /><span class="text-accent">PC-Service</span>
+            </h1>
+            <p class="hero-subtitle">
+              PC-Zusammenbau • Windows Installation • Hardware-Upgrades • Beratung
+            </p>
+            <div class="hero-buttons">
+              <a href="#kontakt" class="btn btn-primary">
+                <i class="fa-solid fa-paper-plane"></i>
+                Jetzt kontaktieren
+              </a>
+              <a href="#leistungen" class="btn btn-secondary">
+                Leistungen ansehen
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Mini stats -->
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <span class="hero-stat-num">100%</span>
+                <span class="hero-stat-label">Saubere Arbeit</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-num">Fair</span>
+                <span class="hero-stat-label">Transparente Preise</span>
+              </div>
+              <div class="hero-stat">
+                <span class="hero-stat-num">Schnell</span>
+                <span class="hero-stat-label">Kurze Wartezeit</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: PC illustration placeholder -->
+          <div class="hero-visual reveal" data-delay="200">
+            <img src="/hero-pc.png" alt="Offener Gaming-PC" class="hero-pc-image">
+          </div>
+
+        <!-- Scroll hint -->
+        <a href="#warum" class="scroll-hint" aria-label="Nach unten scrollen">
+          <span class="scroll-hint-text">scrollen</span>
+          <span class="scroll-hint-mouse"><span></span></span>
+        </a>
+      </section>
+
+      <!-- ============ 2. WARUM MICH WÄHLEN ============ -->
+      <section id="warum" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-eyebrow">Warum PC-Service Lyss?</span>
+            <h2 class="section-title">Ihr PC in besten Händen</h2>
+            <p class="section-subtitle">
+              Vier Gründe, warum Kunden in Lyss und Umgebung auf meinen Service vertrauen.
+            </p>
+          </div>
+
+          <div class="why-grid">
+            <article class="why-card reveal">
+              <div class="why-icon"><i class="fa-solid fa-circle-check"></i></div>
+              <h3 class="why-title">Saubere und professionelle Arbeit</h3>
+              <p class="why-text">
+                Jeder Auftrag wird sorgfältig und mit grösster Präzision ausgeführt –
+                vom Kabelmanagement bis zur finalen Reinigung.
+              </p>
+            </article>
+
+            <article class="why-card reveal" data-delay="100">
+              <div class="why-icon"><i class="fa-solid fa-tag"></i></div>
+              <h3 class="why-title">Faire Preise</h3>
+              <p class="why-text">
+                Transparente Kostenaufstellung ohne versteckte Gebühren. Sie wissen
+                immer genau, wofür Sie bezahlen.
+              </p>
+            </article>
+
+            <article class="why-card reveal" data-delay="200">
+              <div class="why-icon"><i class="fa-solid fa-comments"></i></div>
+              <h3 class="why-title">Persönliche Beratung</h3>
+              <p class="why-text">
+                Direkter Kontakt und individuelle Empfehlungen, die genau zu Ihren
+                Bedürfnissen und Ihrem Budget passen.
+              </p>
+            </article>
+
+            <article class="why-card reveal" data-delay="300">
+              <div class="why-icon"><i class="fa-solid fa-gauge-high"></i></div>
+              <h3 class="why-title">Schneller Service</h3>
+              <p class="why-text">
+                Kurze Wartezeiten und zügige Bearbeitung, damit Sie so schnell wie
+                möglich wieder arbeiten oder spielen können.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 3. LEISTUNGEN ============ -->
+      <section id="leistungen" class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-eyebrow">Leistungen</span>
+            <h2 class="section-title">Was ich für Sie erledige</h2>
+            <p class="section-subtitle">
+              Vom kompletten Neuaufbau bis zur kleinen Reparatur – alles aus einer Hand.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <div class="service-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+              <h3 class="service-title">PC-Zusammenbau</h3>
+              <p class="service-text">
+                Individuelle PCs nach Wunsch zusammenbauen – perfekt abgestimmt auf
+                Gaming, Arbeit oder Everyday-Use.
+              </p>
+              <a href="#kontakt" class="service-link">
+                Anfragen <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="service-card reveal" data-delay="100">
+              <div class="service-icon"><i class="fa-brands fa-windows"></i></div>
+              <h3 class="service-title">Windows Installation</h3>
+              <p class="service-text">
+                Neuinstallation inklusive Treiber und Updates. Sauber, aktuell und
+                auf Performance optimiert.
+              </p>
+              <a href="#kontakt" class="service-link">
+                Anfragen <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="service-card reveal" data-delay="200">
+              <div class="service-icon"><i class="fa-solid fa-microchip"></i></div>
+              <h3 class="service-title">Hardware-Upgrades</h3>
+              <p class="service-text">
+                SSD, RAM, Grafikkarte oder andere Komponenten austauschen und so
+                den PC spürbar beschleunigen.
+              </p>
+              <a href="#kontakt" class="service-link">
+                Anfragen <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="service-card reveal" data-delay="300">
+              <div class="service-icon"><i class="fa-solid fa-clipboard-question"></i></div>
+              <h3 class="service-title">PC-Beratung</h3>
+              <p class="service-text">
+                Unterstützung bei der Auswahl passender Komponenten, die zu Ihren
+                Anforderungen und Ihrem Budget passen.
+              </p>
+              <a href="#kontakt" class="service-link">
+                Anfragen <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="service-card reveal" data-delay="400">
+              <div class="service-icon"><i class="fa-solid fa-broom"></i></div>
+              <h3 class="service-title">PC-Reinigung</h3>
+              <p class="service-text">
+                Innenreinigung und Staubentfernung für kühle Temperaturen, leise
+                Lüfter und eine längere Lebensdauer.
+              </p>
+              <a href="#kontakt" class="service-link">
+                Anfragen <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+
+            <article class="service-card reveal" data-delay="500">
+              <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+              <h3 class="service-title">Website erstellen lassen</h3>
+              <p class="service-text">
+                Professionelle Websites, die Vertrauen schaffen und neue Kunden gewinnen –
+                 modern, schnell und individuell entwickelt.
+              </p>
+              <a href="#kontakt" class="service-link">
+                Anfragen <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 4. SO FUNKTIONIERT ES ============ -->
+      <section id="ablauf" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-eyebrow">Ablauf</span>
+            <h2 class="section-title">So funktioniert es</h2>
+            <p class="section-subtitle">
+              In vier einfachen Schritten zu Ihrem fertigen PC.
+            </p>
+          </div>
+
+          <ol class="timeline">
+            <li class="timeline-step reveal">
+              <div class="timeline-number">1</div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">Kontakt aufnehmen</h3>
+                <p class="timeline-text">
+                  Schreiben Sie mir per Formular oder per E-Mail. Ich melde
+                  mich zeitnah bei Ihnen.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-step reveal" data-delay="100">
+              <div class="timeline-number">2</div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">Problem oder Wunsch besprechen</h3>
+                <p class="timeline-text">
+                  Gemeinsam klären wir, was genau Sie brauchen – vom Budget bis zu
+                  den gewünschten Komponenten.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-step reveal" data-delay="200">
+              <div class="timeline-number">3</div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">PC-Service durchführen</h3>
+                <p class="timeline-text">
+                  Ich kümmere mich um Zusammenbau, Installation oder Upgrade –
+                  sauber, gründlich und professionell.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-step reveal" data-delay="300">
+              <div class="timeline-number">4</div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">Fertigen PC erhalten</h3>
+                <p class="timeline-text">
+                  Sie bekommen Ihren fertigen PC zurück – einsatzbereit, getestet
+                  und bereit für den nächsten Einsatz.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ 5. ÜBER MICH ============ -->
+      <section id="ueber-mich" class="section section-alt">
+        <div class="container about-grid">
+          <div class="about-visual reveal">
+            <div class="about-portrait">
+              <i class="fa-solid fa-user-astronaut"></i>
+              <div class="about-portrait-glow" aria-hidden="true"></div>
+            </div>
+            <div class="about-tag">
+              <i class="fa-solid fa-graduation-cap"></i>
+              Multimediaelektroniker EFZ (in Ausbildung)
+            </div>
+          </div>
+
+          <div class="about-content reveal" data-delay="150">
+            <span class="section-eyebrow">Über mich</span>
+            <h2 class="section-title">Leidenschaft für Technik</h2>
+            <p class="about-text">
+              Ich bin Multimediaelektroniker EFZ in Ausbildung und begeistere mich
+              seit Jahren für Computer und Technik. Ich habe bereits eigene PCs
+              vollständig zusammengebaut, Windows mehrfach neu installiert und
+              verschiedene Hardware-Komponenten ersetzt.
+            </p>
+            <p class="about-text">
+              Mein Ziel ist es, zuverlässigen und fairen PC-Service anzubieten –
+              mit persönlicher Beratung und sauberer Arbeit, auf die Sie sich
+              verlassen können.
+            </p>
+
+            <ul class="about-list">
+              <li><i class="fa-solid fa-check"></i> Eigene PC-Aufbauten</li>
+              <li><i class="fa-solid fa-check"></i> Mehrfache Windows-Installationen</li>
+              <li><i class="fa-solid fa-check"></i> Hardware-Komponenten ersetzt</li>
+              <li><i class="fa-solid fa-check"></i> Persönliche & faire Beratung</li>
+            </ul>
+
+            <a href="#kontakt" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane"></i>
+              Kontakt aufnehmen
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 6. GALERIE ============ -->
+      <section id="galerie" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-eyebrow">Galerie</span>
+            <h2 class="section-title">Eindrücke & Arbeiten</h2>
+            <p class="section-subtitle">
+              Ein Auszug aus vergangenen Aufträgen und Aufbauten.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item reveal">
+              <div class="gallery-img">
+                <i class="fa-solid fa-desktop"></i>
+              </div>
+              <figcaption>Gaming-PC Aufbau</figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal" data-delay="80">
+              <div class="gallery-img">
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <figcaption>Workstation</figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal" data-delay="160">
+              <div class="gallery-img">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <figcaption>Hardware-Upgrade</figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal" data-delay="240">
+              <div class="gallery-img">
+                <i class="fa-solid fa-fan"></i>
+              </div>
+              <figcaption>PC-Reinigung</figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal" data-delay="320">
+              <div class="gallery-img">
+                <i class="fa-solid fa-memory"></i>
+              </div>
+              <figcaption>RAM-Erweiterung</figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal" data-delay="400">
+              <div class="gallery-img">
+                <i class="fa-solid fa-hard-drive"></i>
+              </div>
+              <figcaption>SSD-Einbau</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 7. KUNDENBEWERTUNGEN ============ -->
+      <section id="bewertungen" class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-eyebrow">Kundenbewertungen</span>
+            <h2 class="section-title">Was Kunden sagen</h2>
+            <p class="section-subtitle">
+              Echte Erfahrungen von Kunden aus der Region.
+            </p>
+          </div>
+
+          <div class="testimonials-grid">
+            <article class="testimonial-card reveal">
+              <div class="testimonial-stars" aria-label="5 von 5 Sternen">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                Mein Gaming-PC wurde schnell und sauber zusammengebaut.
+                Kabelmanagement auf schön und sauber. Kann ich nur weiter empfehlen!
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">M</div>
+                <div>
+                  <span class="testimonial-name">Marco B.</span>
+                  <span class="testimonial-role">Aarberg</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card reveal" data-delay="100">
+              <div class="testimonial-stars" aria-label="5 von 5 Sternen">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                Windows wurde neu installiert inklusive allen Treibern. PC läuft
+                wieder wie am ersten Tag. Sehr faire Preise.
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">S</div>
+                <div>
+                  <span class="testimonial-name">Sandra K.</span>
+                  <span class="testimonial-role">Biel/Bienne</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card reveal" data-delay="200">
+              <div class="testimonial-stars" aria-label="5 von 5 Sternen">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                Top Beratung bei der Auswahl meiner neuen Grafikkarte. Hat sich
+                wirklich Zeit genommen und alles erklärt.
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">T</div>
+                <div>
+                  <span class="testimonial-name">Thomas R.</span>
+                  <span class="testimonial-role">Bern</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 8. FAQ ============ -->
+      <section id="faq" class="section">
+        <div class="container container-narrow">
+          <div class="section-head reveal">
+            <span class="section-eyebrow">FAQ</span>
+            <h2 class="section-title">Häufige Fragen</h2>
+            <p class="section-subtitle">
+              Antworten auf die am häufigsten gestellten Fragen.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item reveal">
+              <summary>
+                <span>Welche PCs werden unterstützt?</span>
+                <i class="fa-solid fa-plus faq-icon"></i>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Ich unterstütze sowohl Desktop-PCs als auch Workstations – egal ob
+                  Selbstbau, Marken-PC oder älteres System. Bei speziellen Setups
+                  klären wir vorab gemeinsam, was möglich ist.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item reveal" data-delay="80">
+              <summary>
+                <span>Wie lange dauert ein Zusammenbau?</span>
+                <i class="fa-solid fa-plus faq-icon"></i>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Ein kompletter Zusammenbau dauert in der Regel 1–2 Werktage,
+                  abhängig von der Verfügbarkeit der Komponenten und dem
+                  Umfang des Auftrags. Express-Termine sind auf Anfrage möglich.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item reveal" data-delay="160">
+              <summary>
+                <span>Was kostet eine Windows Installation?</span>
+                <i class="fa-solid fa-plus faq-icon"></i>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Eine Windows-Neuinstallation inklusive Treiber und Updates startet
+                  bei einem fairen Pauschalpreis. Der genaue Betrag hängt vom
+                  Aufwand ab und wird vorab transparent kommuniziert.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item reveal" data-delay="240">
+              <summary>
+                <span>Kann ich eigene Komponenten mitbringen?</span>
+                <i class="fa-solid fa-plus faq-icon"></i>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Ja, selbstverständlich. Sie können entweder eigene Komponenten
+                  mitbringen oder ich übernehme die Beschaffung passender Teile
+                  für Sie. Beides ist problemlos möglich.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 9. KONTAKT ============ -->
+      <section id="kontakt" class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-eyebrow">Kontakt</span>
+            <h2 class="section-title">Schreiben Sie mir</h2>
+            <p class="section-subtitle">
+              Ich melde mich in der Regel innerhalb von 24 Stunden bei Ihnen.
+            </p>
+          </div>
+
+              <a class="contact-info-item" href="mailto:service.lyss@gmail.com">
+                <span class="contact-info-icon"><i class="fa-solid fa-envelope"></i></span>
+                <span>
+                  <span class="contact-info-label">E-Mail</span>
+                  <span class="contact-info-value">service.lyss@gmail.com</span>
+                </span>
+              </a>
+
+              <div class="contact-info-item">
+                <span class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></span>
+                <span>
+                  <span class="contact-info-label">STANDORT</span>
+                  <span class="contact-info-value">Lyss, Schweiz</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- Contact form -->
+            <form
+                id="contactForm"
+                class="contact-form reveal"
+                data-delay="150"
+                action="https://formspree.io/f/xpqvkzbr"
+                method="POST"
+                novalidate>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Ihr Name" required />
+                <span class="form-error" data-for="name">Bitte geben Sie Ihren Namen ein.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" placeholder="ihre@email.ch" required />
+                <span class="form-error" data-for="email">Bitte geben Sie eine gültige E-Mail-Adresse ein.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Nachricht</label>
+                <textarea id="message" name="message" rows="5" placeholder="Wie kann ich Ihnen helfen?" required></textarea>
+                <span class="form-error" data-for="message">Bitte geben Sie eine Nachricht ein.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-paper-plane"></i>
+                Nachricht senden
+              </button>
+
+              <p id="formSuccess" class="form-success" hidden>
+                <i class="fa-solid fa-circle-check"></i>
+                Vielen Dank! Ihre Nachricht wurde gesendet. Ich melde mich in Kürze.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ 10. FOOTER ============ -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <span class="nav-logo-mark"><i class="fa-solid fa-microchip"></i></span>
+            <span class="nav-logo-text">PC-Service Lyss</span>
+          </a>
+          <p class="footer-tagline">
+            Professioneller PC-Service in Lyss, Schweiz. Zusammenbau, Installation,
+            Upgrades und Beratung – fair, sauber und persönlich.
+          </p>
+        </div>
+
+        <nav class="footer-col" aria-label="Footer Navigation">
+          <h4 class="footer-heading">Navigation</h4>
+          <a href="#leistungen">Leistungen</a>
+          <a href="#ablauf">Ablauf</a>
+          <a href="#ueber-mich">Über mich</a>
+          <a href="#galerie">Galerie</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <nav class="footer-col" aria-label="Footer Kontakt">
+          <h4 class="footer-heading">Kontakt</h4>
+          <a href="mailto:service.lyss@gmail.com">service.lyss@gmail.com</a>
+          <span>Lyss, Schweiz</span>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>&copy; <span id="year"></span> PC-Service Lyss. Alle Rechte vorbehalten.</p>
+          <p>Mit Sorgfalt gebaut in Lyss, Schweiz.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="backToTop" class="back-to-top" aria-label="Nach oben scrollen">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
